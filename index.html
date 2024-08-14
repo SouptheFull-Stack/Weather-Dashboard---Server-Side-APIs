@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+
+    <main>
+      <section class="side-box">
+        <article class="search-style">
+          <h4>Search For a City</h4>
+          <form id="search-form">
+            <input
+              name="city"
+              id="city"
+              type="text"
+              autofocus="true"
+              class="form-input"
+            />
+            <button type="submit">Search</button>
+          </form>
+        </article>
+
+        <article class="search-results">
+          <button>Sydney</button>
+          <button>Brisbane</button>
+          <button>Perth</button>
+          <button>Melbourne</button>
+          <button id="clear-button">Clear Searches</button>
+        </article>
+      </section>
+
+      <section class="weather-box">
+        <article class="weather-main">
+          <div class="weather-header">
+            <h2>Sydney</h2>
+            <img src="./assets/images/snow.png" />
+          </div>
+          <p>Temp:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </article>
+
+        <h3>5-Day Forecast:</h3>
+
+        <article class="forecast-results">
+          <div id="forecast-card" class="forecast-boxes">
+            <h5>10/10/2022</h5>
+            <p>Today is a good day</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+          </div>
+          <div class="forecast-boxes">
+            <h5>10/10/2022</h5>
+            <p>Today is a good day</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+          </div>
+          <div class="forecast-boxes">
+            <h5>10/10/2022</h5>
+            <p>Today is a good day</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+          </div>
+          <div class="forecast-boxes">
+            <h5>10/10/2022</h5>
+            <p>Today is a good day</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+          </div>
+          <div class="forecast-boxes">
+            <h5>10/10/2022</h5>
+            <p>Today is a good day</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
