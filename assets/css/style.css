@@ -149,6 +149,7 @@ h5 {
   background-color: var(--dark);
   padding: 1rem;
   border-radius: 10px;
+  color: var(--white);
 }
 
 .weather-header {
