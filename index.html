@@ -45,28 +45,19 @@
               autofocus="true"
               class="form-input"
             />
-            <button type="submit">Search</button>
+            <button id="city-button" type="submit">Search</button>
           </form>
         </article>
 
-        <article class="search-results">
-          <button>Sydney</button>
-          <button>Brisbane</button>
-          <button>Perth</button>
-          <button>Melbourne</button>
-          <button id="clear-button">Clear Searches</button>
+        <article id="searched-cities" class="search-results">
+          <button id="clear-button" type="something???">Clear Searches</button>
         </article>
       </section>
 
       <section class="weather-box">
         <article class="weather-main">
-          <div class="weather-header">
-            <h2>Sydney</h2>
-            <img src="./assets/images/snow.png" />
-          </div>
-          <p>Temp:</p>
-          <p>Wind:</p>
-          <p>Humidity:</p>
+          <div id="current-weather-header" class="weather-header"></div>
+          <div id="current-weather-bottom"></div>
         </article>
 
         <h3>5-Day Forecast:</h3>
